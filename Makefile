@@ -1,4 +1,4 @@
-REPO=github.com/edoardottt/cariddi
+REPO=github.com/ocervell/cariddi
 
 fmt:
 	@gofmt -s ./*

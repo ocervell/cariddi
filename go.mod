@@ -1,4 +1,4 @@
-module github.com/edoardottt/cariddi
+module github.com/ocervell/cariddi
 
 go 1.17
 

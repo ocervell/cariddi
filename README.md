@@ -3,12 +3,12 @@
   <b>Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more</b><br>
   <br>
   <!-- go-report-card -->
-  <a href="https://goreportcard.com/report/github.com/edoardottt/cariddi">
-    <img src="https://goreportcard.com/badge/github.com/edoardottt/cariddi" alt="go-report-card" />
+  <a href="https://goreportcard.com/report/github.com/ocervell/cariddi">
+    <img src="https://goreportcard.com/badge/github.com/ocervell/cariddi" alt="go-report-card" />
   </a>
   <!-- workflows -->
   <a href="https://edoardoottavianelli.it">
-    <img src="https://github.com/edoardottt/cariddi/workflows/Go/badge.svg?branch=main" alt="workflows" />
+    <img src="https://github.com/ocervell/cariddi/workflows/Go/badge.svg?branch=main" alt="workflows" />
   </a>
   <!-- ubuntu-build -->
   <a href="https://edoardoottavianelli.it">
@@ -38,7 +38,7 @@
     <img src="https://github.com/edoardottt/images/blob/main/cariddi/gobadge" alt="gobadge" />
   </a>
   <!-- license GPLv3.0 -->
-  <a href="https://github.com/edoardottt/cariddi/blob/master/LICENSE">
+  <a href="https://github.com/ocervell/cariddi/blob/master/LICENSE">
     <img src="https://github.com/edoardottt/images/blob/main/cariddi/license-GPL3.svg" alt="license-GPL3" />
   </a>
   <br>
@@ -47,7 +47,7 @@
   </sub>
   <br>
   <!--Tweet button-->
-  <a href="https://twitter.com/intent/tweet?url=https://github.com/edoardottt/cariddi&text=Take%20a%20list%20of%20domains,%20crawl%20urls%20and%20scan%20for%20endpoints,%20secrets,%20api%20keys,%20file%20extensions,%20tokens%20and%20more...%20#network%20#security%20#infosec%20#oss%20#github%20#bugbounty%20#linux" target="_blank">Share on Twitter!
+  <a href="https://twitter.com/intent/tweet?url=https://github.com/ocervell/cariddi&text=Take%20a%20list%20of%20domains,%20crawl%20urls%20and%20scan%20for%20endpoints,%20secrets,%20api%20keys,%20file%20extensions,%20tokens%20and%20more...%20#network%20#security%20#infosec%20#oss%20#github%20#bugbounty%20#linux" target="_blank">Share on Twitter!
   </a>
 </p>
 <p align="center">
@@ -70,7 +70,7 @@ Installation 📡
 
 ### Using Go
 ```bash
-go install -v github.com/edoardottt/cariddi/cmd/cariddi@latest
+go install -v github.com/ocervell/cariddi/cmd/cariddi@latest
 ```
 
 ### Building from source
@@ -79,17 +79,17 @@ You need [Go](https://golang.org/).
 
 - **Linux**
 
-  - `git clone https://github.com/edoardottt/cariddi.git`
+  - `git clone https://github.com/ocervell/cariddi.git`
   - `cd cariddi`
   - `go get`
   - `make linux` (to install)
   - `make unlinux` (to uninstall)
 
-  Or in one line: `git clone https://github.com/edoardottt/cariddi.git; cd cariddi; go get; make linux`
+  Or in one line: `git clone https://github.com/ocervell/cariddi.git; cd cariddi; go get; make linux`
 
 - **Windows** (executable works only in cariddi folder.)
 
-  - `git clone https://github.com/edoardottt/cariddi.git`
+  - `git clone https://github.com/ocervell/cariddi.git`
   - `cd cariddi`
   - `go get`
   - `.\make.bat windows` (to install)    
@@ -193,16 +193,16 @@ Examples 💡
   	- use `powershell.exe -Command "cat urls | .\cariddi.exe"` inside the Command prompt
   	- or just `cat urls | cariddi.exe` using PowerShell
 
-  - To integrate cariddi with Burpsuite [make sure to follow these steps](https://github.com/edoardottt/cariddi/wiki/BurpSuite-Integration).
+  - To integrate cariddi with Burpsuite [make sure to follow these steps](https://github.com/ocervell/cariddi/wiki/BurpSuite-Integration).
 
 Changelog 📌
 -------
-Detailed changes for each release are documented in the [release notes](https://github.com/edoardottt/cariddi/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/ocervell/cariddi/releases).
 
 Contributing 🛠
 -------
 
-Just open an [issue](https://github.com/edoardottt/cariddi/issues)/[pull request](https://github.com/edoardottt/cariddi/pulls).
+Just open an [issue](https://github.com/ocervell/cariddi/issues)/[pull request](https://github.com/ocervell/cariddi/pulls).
 
 Before opening a pull request, download [golangci-lint](https://golangci-lint.run/usage/install/) and run
 ```bash
@@ -223,5 +223,5 @@ Special thanks to: [go-colly](http://go-colly.org/), [zricethezav](https://githu
 License 📝
 -------
 
-This repository is under [GNU General Public License v3.0](https://github.com/edoardottt/cariddi/blob/main/LICENSE).  
+This repository is under [GNU General Public License v3.0](https://github.com/ocervell/cariddi/blob/main/LICENSE).  
 [edoardoottavianelli.it](https://www.edoardoottavianelli.it) to contact me.

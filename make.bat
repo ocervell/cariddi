@@ -30,7 +30,7 @@ IF "%ARG%"=="lint" (
 IF "%ARG%"=="remod" (
   del go.mod
   del go.sum
-  go mod init github.com/edoardottt/cariddi
+  go mod init github.com/ocervell/cariddi
   go get
   GOTO Done
 )
