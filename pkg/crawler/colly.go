@@ -16,11 +16,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/.
 
-	@Repository:  https://github.com/edoardottt/cariddi
+	@Repository:  https://github.com/ocervell/cariddi
 
 	@Author:      edoardottt, https://www.edoardoottavianelli.it
 
-	@License: https://github.com/edoardottt/cariddi/blob/main/LICENSE
+	@License: https://github.com/ocervell/cariddi/blob/main/LICENSE
 
 */
 
@@ -39,12 +39,12 @@ import (
 	"strings"
 	"time"
 
-	fileUtils "github.com/edoardottt/cariddi/internal/file"
-	sliceUtils "github.com/edoardottt/cariddi/internal/slice"
-	urlUtils "github.com/edoardottt/cariddi/internal/url"
-	"github.com/edoardottt/cariddi/pkg/input"
-	"github.com/edoardottt/cariddi/pkg/output"
-	"github.com/edoardottt/cariddi/pkg/scanner"
+	fileUtils "github.com/ocervell/cariddi/internal/file"
+	sliceUtils "github.com/ocervell/cariddi/internal/slice"
+	urlUtils "github.com/ocervell/cariddi/internal/url"
+	"github.com/ocervell/cariddi/pkg/input"
+	"github.com/ocervell/cariddi/pkg/output"
+	"github.com/ocervell/cariddi/pkg/scanner"
 	"github.com/gocolly/colly"
 	"github.com/gocolly/colly/extensions"
 )

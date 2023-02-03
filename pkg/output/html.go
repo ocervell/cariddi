@@ -16,11 +16,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/.
 
-	@Repository:  https://github.com/edoardottt/cariddi
+	@Repository:  https://github.com/ocervell/cariddi
 
 	@Author:      edoardottt, https://www.edoardoottavianelli.it
 
-	@License: https://github.com/edoardottt/cariddi/blob/main/LICENSE
+	@License: https://github.com/ocervell/cariddi/blob/main/LICENSE
 
 */
 
@@ -30,7 +30,7 @@ import (
 	"log"
 	"os"
 
-	fileUtils "github.com/edoardottt/cariddi/internal/file"
+	fileUtils "github.com/ocervell/cariddi/internal/file"
 )
 
 // BannerHTML appends the initial banner to html file.
@@ -42,7 +42,7 @@ func BannerHTML(filename string) {
 	}
 
 	_, err = file.WriteString(`<html><body><div style='background-color:#4adeff;color:white'><h1>Cariddi</h1>
-	<ul><li><a href='https://github.com/edoardottt/cariddi'>github.com/edoardottt/cariddi</a></li>
+	<ul><li><a href='https://github.com/ocervell/cariddi'>github.com/ocervell/cariddi</a></li>
 	<li>edoardottt, <a href='https://www.edoardoottavianelli.it'>edoardoottavianelli.it</a></li>
 	<li>Released under <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GPLv3 License</a></li></ul></div>`)
 	if err != nil {
@@ -124,7 +124,7 @@ func BannerFooterHTML(filename string) {
 	}
 
 	_, err = file.WriteString(`<div style='background-color:#4adeff;color:white'>
-	<ul><li><a href='https://github.com/edoardottt/cariddi'>Contribute to cariddi</a></li>
+	<ul><li><a href='https://github.com/ocervell/cariddi'>Contribute to cariddi</a></li>
 	<li>Released under <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GPLv3 License</a></li></ul></div>`)
 	if err != nil {
 		log.Fatal(err)

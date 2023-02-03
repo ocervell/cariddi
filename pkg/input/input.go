@@ -16,11 +16,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/.
 
-	@Repository:  https://github.com/edoardottt/cariddi
+	@Repository:  https://github.com/ocervell/cariddi
 
 	@Author:      edoardottt, https://www.edoardoottavianelli.it
 
-	@License: https://github.com/edoardottt/cariddi/blob/main/LICENSE
+	@License: https://github.com/ocervell/cariddi/blob/main/LICENSE
 
 */
 
@@ -32,7 +32,7 @@ import (
 	"os"
 	"strings"
 
-	sliceUtils "github.com/edoardottt/cariddi/internal/slice"
+	sliceUtils "github.com/ocervell/cariddi/internal/slice"
 )
 
 // ScanTargets return the array of elements

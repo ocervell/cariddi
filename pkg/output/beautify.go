@@ -16,11 +16,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/.
 
-	@Repository:  https://github.com/edoardottt/cariddi
+	@Repository:  https://github.com/ocervell/cariddi
 
 	@Author:      edoardottt, https://www.edoardoottavianelli.it
 
-	@License: https://github.com/edoardottt/cariddi/blob/main/LICENSE
+	@License: https://github.com/ocervell/cariddi/blob/main/LICENSE
 
 */
 
@@ -41,7 +41,7 @@ func Beautify() {
 	banner4 := " | (_| (_| | |  | | (_| | (_| | |\n"
 	banner5 := "  \\___\\__,_|_|  |_|\\__,_|\\__,_|_| v1.2.1\n"
 	banner6 := "\n"
-	banner7 := " > github.com/edoardottt/cariddi\n"
+	banner7 := " > github.com/ocervell/cariddi\n"
 	banner8 := " > edoardoottavianelli.it\n"
 	banner9 := "========================================\n"
 
