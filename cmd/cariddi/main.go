@@ -29,12 +29,12 @@ package main
 import (
 	"os"
 
-	fileUtils "github.com/edoardottt/cariddi/internal/file"
-	sliceUtils "github.com/edoardottt/cariddi/internal/slice"
-	"github.com/edoardottt/cariddi/pkg/crawler"
-	"github.com/edoardottt/cariddi/pkg/input"
-	"github.com/edoardottt/cariddi/pkg/output"
-	"github.com/edoardottt/cariddi/pkg/scanner"
+	fileUtils "github.com/ocervell/cariddi/internal/file"
+	sliceUtils "github.com/ocervell/cariddi/internal/slice"
+	"github.com/ocervell/cariddi/pkg/crawler"
+	"github.com/ocervell/cariddi/pkg/input"
+	"github.com/ocervell/cariddi/pkg/output"
+	"github.com/ocervell/cariddi/pkg/scanner"
 )
 
 // main function.
